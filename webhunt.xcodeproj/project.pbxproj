@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57253954248EFE7000895F6D /* product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57253953248EFE7000895F6D /* product.swift */; };
 		57843ABE2458662700902F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57843ABD2458662700902F3D /* AppDelegate.swift */; };
 		57843AC02458662700902F3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57843ABF2458662700902F3D /* SceneDelegate.swift */; };
 		57843AC22458662700902F3D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57843AC12458662700902F3D /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57253953248EFE7000895F6D /* product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product.swift; sourceTree = "<group>"; };
 		57843ABA2458662700902F3D /* webhunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webhunt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57843ABD2458662700902F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57843ABF2458662700902F3D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +78,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57253952248EFE4A00895F6D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				57253953248EFE7000895F6D /* product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		57843AB12458662700902F3D = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +109,7 @@
 		57843ABC2458662700902F3D /* webhunt */ = {
 			isa = PBXGroup;
 			children = (
+				57253952248EFE4A00895F6D /* Models */,
 				57843ABD2458662700902F3D /* AppDelegate.swift */,
 				57843ABF2458662700902F3D /* SceneDelegate.swift */,
 				57843AC12458662700902F3D /* ContentView.swift */,
@@ -268,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57843ABE2458662700902F3D /* AppDelegate.swift in Sources */,
+				57253954248EFE7000895F6D /* product.swift in Sources */,
 				57843AC02458662700902F3D /* SceneDelegate.swift in Sources */,
 				57843AC22458662700902F3D /* ContentView.swift in Sources */,
 			);
